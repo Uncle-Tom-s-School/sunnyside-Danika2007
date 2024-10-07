@@ -2,67 +2,143 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <nav>
+    <img src="./images/logo.svg">
+    <div class="menu-open" id="menu-open">
+      <ul id="options">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li class="active"><a  href="#">Contacts</a></li>
+      </ul>
+      
+      
+    </div>
 
-  We are creatives
+    <img class="menu" id="menu" src="./images/icon-hamburger.svg">
 
-  Transform your brand
+    
+  </nav>
+  <main>
+    
+    <div class="first">
+      <h3>We are creatives</h3>      
+      <img src="./images/icon-arrow-down.svg">
+    </div>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+    <div class="second dis">
+      <div class="left">
+        <h4>Transform your brand</h4>
+        <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <a href="#">Learn more</a>
+      </div>
 
-  Learn more
+      <div class="right"></div>
+    </div>
+    
+    
+    <div class="third dis">
+      <div class="left">
+        
+      </div>
 
-  Stand out to the right audience
+      <div class="right">
+        <h4>Stand out to the right audience</h4>
+        <p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+    <div class="forth dis">
+      <div class="left">
+        <h4>Graphic design</h4>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
 
-  Learn more
+      <div class="right">
+        <h4>Photography</h4>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+      </div>
+    </div>
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+    <div class="testimonials">
+      <h3>Client testimonials</h3>
 
-  Client testimonials
+      <div class="contain">
+        <div>
+          <img src="./images/image-emily.jpg" alt="avatar of emily">
+          <p class="about">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="name">Emily R.</p>
+          <p class="position">Marketing Director</p>
+        </div>
+        
+        <div>
+          <img src="./images/image-thomas.jpg" alt="avatar of Thomas">
+          <p class="about">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <p class="name">Thomas S.</p>
+          <p class="position">Chief Operating Officer</p>
+        </div>
+        
+        <div>
+          <img src="./images/image-jennie.jpg" alt="avatar of Jennie">
+          <p class="about">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="name">Jennie F.</p>
+          <p class="position">Business Owner</p>
+        </div>
+      </div>
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
+    </div>
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
+    <footer>
+      <div class="images">
+        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+        <img src="./images/desktop/image-gallery-orange.jpg" alt="orange">
+        <img src="./images/desktop/image-gallery-cone.jpg" alt="ice cream cone">
+        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cudes">
+      </div>
+  
+      <div class="details">
+        <div class="links">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </div>
+  
+        <div class="socials">
+          <a href=""><img src="./images/icon-facebook.svg" alt=""></a>
+          <a href=""><img src="./images/icon-instagram.svg" alt=""></a>
+          <a href=""><img src="./images/icon-twitter.svg" alt=""></a>
+          <a href=""><img src="./images/icon-pinterest.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/Greg-davi">Neena</a>.
+      </div>
+    </footer>
 
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
+  </main>
 
-  About
-  Services
-  Projects
-  Contact
+  <script src="script.js">
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </script>
+  
+
+  
 </body>
 </html>
